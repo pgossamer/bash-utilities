@@ -1,17 +1,17 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-all: s21_grep test
+all: _grep test
 
-s21_grep:
-	$(CC) $(CFLAGS) s21_grep.c -o s21_grep
+_grep:
+	$(CC) $(CFLAGS) _grep.c -o _grep
 
 test:
 	chmod 777 test.sh
 	./test.sh
 
 clean:
-	rm -f ./s21_grep
-	rm -rf s21_grepi orig_grepi
+	rm -f ./_grep
+	rm -rf _grepi orig_grepi
 
 rebuild: clean all
