@@ -1,4 +1,4 @@
-#include "s21_grep.h"
+#include "_grep.h"
 
 int main(int argc, char *argv[]) {
   Tokens flags;
