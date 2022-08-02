@@ -1,5 +1,5 @@
-#ifndef SRC_CAT_S21_CAT_H_
-#define SRC_CAT_S21_CAT_H_
+#ifndef SRC_CAT__CAT_H_
+#define SRC_CAT__CAT_H_
 
 #include <stdio.h>
 #include <string.h>
@@ -18,6 +18,6 @@ typedef struct flag {
 
 void flagonizer_cat(int argc, char *argv[], Token *flag);
 void work_flag_cat(FILE *file, Token *flag);
-int s21_cat(int argc, char *argv[]);
+int _cat(int argc, char *argv[]);
 
-#endif // SRC_CAT_S21_CAT_H_
+#endif // SRC_CAT__CAT_H_

@@ -1,4 +1,4 @@
-#include "s21_cat.h"
+#include "_cat.h"
 
 int main(int argc, char *argv[]) {
     Token flag;
